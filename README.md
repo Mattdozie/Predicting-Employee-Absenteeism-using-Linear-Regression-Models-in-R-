@@ -24,7 +24,9 @@ Find the Dataset [HERE](https://github.com/Mattdozie/Predicting-Employee-Absente
 ### Missing Value Analysis
 The dataset was meticulously examined for missing values, defined as essential but unavailable data points for analysis. The absence of missing values is crucial as they can distort analytical outcomes. Fortunately, the absenteeism dataset exhibits no missing values, as depicted below.
 
-![Missing Value Analysis Plot](link_to_image)
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/328a7cf2-13e5-43e6-9007-4cf7c9c6ba4c)
+
+                                                    Missing value analysis plot
 
 ### Univariate Graphical Exploratory Data Analysis
 Univariate graphical EDA was conducted to unveil the underlying characteristics and distributions of dataset features. Histograms were employed to illustrate frequency distributions of numerical features, revealing their inherent characteristics.
