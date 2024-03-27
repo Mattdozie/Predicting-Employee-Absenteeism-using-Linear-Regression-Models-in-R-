@@ -110,9 +110,10 @@ Multiple Linear Regression allows the utilization of multiple independent featur
 
 ![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/3a5e3767-9f11-4a25-add5-acd52f52ed81)
 
-
 ### Ridge Regression Model
 Ridge regression, employing L2 regularization, shrinks variable coefficients to prevent overfitting. The "glmnet" package in R was utilized for model development, with alpha set to zero and lambda chosen via cross-validation. The model selection was based on Root Mean Square Error (RMSE).
+
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/971e1059-34e9-433c-8c3a-3f5029070b17)
 
 ### Lasso Regression Model
 Lasso regression, employing L1 regularization, reduces coefficients and eliminates variables with zero coefficients. The "glmnet" package was employed in R, with alpha set to 1 and lambda selected via cross-validation. RMSE guided model selection.
