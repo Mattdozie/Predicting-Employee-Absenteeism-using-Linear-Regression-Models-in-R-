@@ -143,5 +143,5 @@ The final selected model was subjected to both in-sample (training data) and out
 ### Project Evaluation
 The success of the project was evaluated against predefined goals, Key Performance Indicators (KPIs), and the ability to deliver actionable insights. The project encompassed comprehensive phases including data collection, processing, analysis, model evaluation, and reporting, all meeting the set objectives. Exploratory data analysis uncovered valuable insights, such as non-linear relationships between variables and the presence of outliers. Multivariate analysis revealed multicollinearity issues, addressed through feature selection techniques. The final model selection, based on rigorous evaluation, recommended actionable strategies for reducing absenteeism, emphasizing the importance of disciplinary measures and transportation incentives.
 
-Find the full Report [HERE](link_to_full_report)
+Find the full Report [HERE](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/blob/main/Absenteeism%20Report.pdf)https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/blob/main/Absenteeism%20Report.pdf)
 
