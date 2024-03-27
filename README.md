@@ -45,7 +45,9 @@ Transportation expense demonstrates a multimodal distribution, with approximatel
 ##### ii. Distance to Work
 Like transportation expense, distance to work exhibits a multimodal distribution. Contrary to expectations, the scatterplot between transportation expense and distance to work doesn't demonstrate a linear correlation, suggesting variations in transportation expenses due to different modes of transportation.
 
-![Scatterplot: Relationship between Transportation Expense and Distance to Work](link_to_image)
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/38dce5c5-a34d-452d-8526-91172a0b083a)
+
+                                            Relationship between Transportation Expense and Distance to Work
 
 ##### iii. Age
 The age distribution is right-skewed, with a notable concentration of employees below 45 years. Outliers in the age feature were identified and subsequently removed during data preprocessing.
