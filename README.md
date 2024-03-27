@@ -74,7 +74,15 @@ After examining the distribution of variables in the dataset, it was evident tha
 ### Outlier Analysis
 Boxplots were utilized to confirm the presence of outliers in various variables. Outliers, being abnormal values, can significantly impact regression models. Before deciding on their treatment, it was imperative to ascertain whether outliers provided meaningful insights into the data.
 
-![Analysis of Outliers Using Boxplots](link_to_image)
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/c104e469-26f1-4ddd-9304-34576b4f3ed4)
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/f64a0b7d-211d-4e2b-bc41-6392a78c843b)
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/d94b763d-41f0-47d8-b4a8-098522ebb25e)
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/48ef977d-6b10-43c3-b35f-ab234af413dd)
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/93b1cbdb-139b-4f8a-9949-cadc2dd7d5ad)
+
+
+
+
 
 Outliers were identified in the following features:
 
