@@ -129,10 +129,13 @@ These regression models were developed after comprehensive data preprocessing, e
 
 ### Model Selection
 Model evaluation metrics, including Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and R-Squared, were utilized for model comparison. The Elastic Net model exhibited superior performance in terms of MAE and RMSE on the training dataset, despite a lower R-Squared value compared to other models. Visual representation via boxplots corroborated this finding, showcasing the Elastic Net model's overall effectiveness.
+
 ![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/61c84eb1-bfcf-4f3c-a2c0-054b26e35b62)
 
 ### Box & Whisker Plot of R-Squared, MAE, and RMSE
 The best tuning parameters for the Elastic Net model indicated its similarity to a Ridge model. Variable importance analysis highlighted the significance of "Disciplinary Failure" and "Transportation Expense" in predicting the target variable.
+
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/96712ef2-38aa-4a8e-bcd5-be7ec4052ed6)
 
 ### Model Prediction and Accuracy Estimation
 The final selected model was subjected to both in-sample (training data) and out-of-sample (test data) predictions. The Root Mean Square Error (RMSE) served as the primary metric for assessing model accuracy. Lower RMSE values for both predictions indicated satisfactory performance, with the model demonstrating improved accuracy on the test data.
