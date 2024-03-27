@@ -118,6 +118,8 @@ Ridge regression, employing L2 regularization, shrinks variable coefficients to 
 ### Lasso Regression Model
 Lasso regression, employing L1 regularization, reduces coefficients and eliminates variables with zero coefficients. The "glmnet" package was employed in R, with alpha set to 1 and lambda selected via cross-validation. RMSE guided model selection.
 
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/c001ac2b-fb4a-4fc3-8ebd-bd5e7e5b0047)
+
 ### Elastic Net Regression Model
 Elastic Net regression combines L1 and L2 penalties, offering a balanced approach. The model, trained using the "glmnet" package in R, underwent cross-validation to select optimal alpha and lambda values. RMSE guided the final model selection.
 
