@@ -100,4 +100,41 @@ Machine learning models often grapple with a multitude of input features, posing
 Least Absolute Shrinkage and Selection Operator (LASSO), Ridge, and Elastic Net regressions, known for their inherent feature selection capabilities, were chosen for this project.
 
 ## Model Justification
-The aim is to adopt a parsimonious model that accurately predicts future data, hence the selection of
+
+The aim is to adopt a parsimonious model that accurately predicts future data, hence the selection of models like LASSO, Ridge, and Elastic Net. These models mitigate multicollinearity issues and enhance interpretability, consequently improving the robustness of the analysis.
+
+## Model Building
+
+### Multiple Linear Regression Model
+Multiple Linear Regression allows the utilization of multiple independent features and assumes a linear relationship between them. The model was trained using the "lm" method in R, with 344 samples and 14 predictors. Cross-validation was performed using 10-fold resampling repeated 5 times. The evaluation highlighted the significance of the "Disciplinary Failure" feature.
+
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/3a5e3767-9f11-4a25-add5-acd52f52ed81)
+
+
+### Ridge Regression Model
+Ridge regression, employing L2 regularization, shrinks variable coefficients to prevent overfitting. The "glmnet" package in R was utilized for model development, with alpha set to zero and lambda chosen via cross-validation. The model selection was based on Root Mean Square Error (RMSE).
+
+### Lasso Regression Model
+Lasso regression, employing L1 regularization, reduces coefficients and eliminates variables with zero coefficients. The "glmnet" package was employed in R, with alpha set to 1 and lambda selected via cross-validation. RMSE guided model selection.
+
+### Elastic Net Regression Model
+Elastic Net regression combines L1 and L2 penalties, offering a balanced approach. The model, trained using the "glmnet" package in R, underwent cross-validation to select optimal alpha and lambda values. RMSE guided the final model selection.
+
+These regression models were developed after comprehensive data preprocessing, ensuring robustness and accuracy in subsequent analyses.
+
+## Model Evaluation and Project Assessment
+
+### Model Selection
+Model evaluation metrics, including Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and R-Squared, were utilized for model comparison. The Elastic Net model exhibited superior performance in terms of MAE and RMSE on the training dataset, despite a lower R-Squared value compared to other models. Visual representation via boxplots corroborated this finding, showcasing the Elastic Net model's overall effectiveness.
+
+### Box & Whisker Plot of R-Squared, MAE, and RMSE
+The best tuning parameters for the Elastic Net model indicated its similarity to a Ridge model. Variable importance analysis highlighted the significance of "Disciplinary Failure" and "Transportation Expense" in predicting the target variable.
+
+### Model Prediction and Accuracy Estimation
+The final selected model was subjected to both in-sample (training data) and out-of-sample (test data) predictions. The Root Mean Square Error (RMSE) served as the primary metric for assessing model accuracy. Lower RMSE values for both predictions indicated satisfactory performance, with the model demonstrating improved accuracy on the test data.
+
+### Project Evaluation
+The success of the project was evaluated against predefined goals, Key Performance Indicators (KPIs), and the ability to deliver actionable insights. The project encompassed comprehensive phases including data collection, processing, analysis, model evaluation, and reporting, all meeting the set objectives. Exploratory data analysis uncovered valuable insights, such as non-linear relationships between variables and the presence of outliers. Multivariate analysis revealed multicollinearity issues, addressed through feature selection techniques. The final model selection, based on rigorous evaluation, recommended actionable strategies for reducing absenteeism, emphasizing the importance of disciplinary measures and transportation incentives.
+
+Find the full Report [HERE](link_to_full_report)
+
