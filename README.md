@@ -19,7 +19,7 @@ Drawing from my journey as a team leader across diverse departments, I've seen f
 ## Exploratory Data Analysis 
 Exploratory Data Analysis (EDA) serves as a crucial preliminary step in understanding the structure of a dataset. It offers insights into variable distributions, and relationships between variables, and aids in identifying anomalies such as outliers that may impact model accuracy.
 
-Find the Dataset [HERE]
+Find the Dataset [HERE](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/blob/main/absenteeism.csv)
 
 ### Missing Value Analysis
 The dataset was meticulously examined for missing values, defined as essential but unavailable data points for analysis. The absence of missing values is crucial as they can distort analytical outcomes. Fortunately, the absenteeism dataset exhibits no missing values, as depicted below.
