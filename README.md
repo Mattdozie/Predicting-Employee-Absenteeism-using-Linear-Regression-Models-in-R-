@@ -30,6 +30,10 @@ The dataset was meticulously examined for missing values, defined as essential b
 
 ### Univariate Graphical Exploratory Data Analysis
 Univariate graphical EDA was conducted to unveil the underlying characteristics and distributions of dataset features. Histograms were employed to illustrate frequency distributions of numerical features, revealing their inherent characteristics.
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/68ff290c-b73d-4948-a37a-ba8f2daf6e6f)
+
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/0e3be1ea-ac3b-4527-9647-80d2ceb95367)
+
 
 #### Histogram Plots: Distribution of Numerical Features
 The histograms indicated predominantly non-symmetric distributions, with features exhibiting left or right skewness, bimodality, or multimodality.
