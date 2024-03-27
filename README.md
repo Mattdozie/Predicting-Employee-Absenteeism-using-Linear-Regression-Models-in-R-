@@ -60,6 +60,9 @@ Categorical features were analyzed using bar plots to discern relationships with
 ### Multivariate Graphical Exploratory Data Analysis
 To assess correlations between independent and dependent features, as well as covariance among independent features, a correlation matrix was employed.
 
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/743c7bea-4882-4b3f-8739-1bcb55d47249)
+
+
 #### Correlation Chart: Relationships and Coefficient of Variables
 The correlation chart revealed a high correlation (0.90) between weight and body mass index (BMI), indicating multicollinearity. Multicollinearity, is detrimental to model accuracy and reliability, necessitating remediation. Consequently, the variable weight, exhibiting high correlation, was eliminated from the dataset. Other variables did not display strong positive or negative correlations.
 
