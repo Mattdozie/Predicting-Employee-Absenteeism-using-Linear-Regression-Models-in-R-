@@ -24,7 +24,8 @@ Find the Dataset [HERE](https://github.com/Mattdozie/Predicting-Employee-Absente
 ### Missing Value Analysis
 The dataset was meticulously examined for missing values, defined as essential but unavailable data points for analysis. The absence of missing values is crucial as they can distort analytical outcomes. Fortunately, the absenteeism dataset exhibits no missing values, as depicted below.
 
-![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/328a7cf2-13e5-43e6-9007-4cf7c9c6ba4c)
+![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/9733d296-ab99-4ed0-b427-31c4c756eeb2)
+
 
                                                     Missing value analysis plot
 
@@ -33,6 +34,7 @@ Univariate graphical EDA was conducted to unveil the underlying characteristics 
 ![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/68ff290c-b73d-4948-a37a-ba8f2daf6e6f)
 
 ![image](https://github.com/Mattdozie/Predicting-Employee-Absenteeism-using-Linear-Regression-Models-in-R-/assets/100968289/0e3be1ea-ac3b-4527-9647-80d2ceb95367)
+                                                  
                                                   Histogram Plots: Distribution of Numerical Features
 
 The histograms indicated predominantly non-symmetric distributions, with features exhibiting left or right skewness, bimodality, or multimodality.
